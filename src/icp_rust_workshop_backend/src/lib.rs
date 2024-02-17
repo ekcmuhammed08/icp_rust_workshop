@@ -7,7 +7,7 @@ const IMAGE_SIZE_IN_PIXELS: usize = 1024;
 const LOGO_TRANSPARENT: &[u8] = include_bytes!("../assets/logo_transparent.png");
 const LOGO_WHITE: &[u8] = include_bytes!("../assets/logo_white.png");
 
-#[derive(CandidType, Deserialize)]
+#[derive(CandidType, Deserialize)] 
 struct Options {
     add_logo: bool,
     add_gradient: bool,
