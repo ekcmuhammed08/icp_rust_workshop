@@ -1,5 +1,5 @@
 [package]
-name = "icp_rust_workshop_backend"
+name = "qrcode_backend"
 version = "0.1.0"
 edition = "2021"
 
@@ -12,3 +12,11 @@ crate-type = ["cdylib"]
 candid = "0.10"
 ic-cdk = "0.12"
 ic-cdk-timers = "0.6" # Feel free to remove this dependency if you don't need timers
+ic-cdk-macros = "0.8.4"
+anyhow = "1.0"
+colorgrad = "0.6"
+qrcode-generator = "4.1"
+image = {version = "0.24", features = ["png"], default-features = false}
+serde = { version="1.0", features=["derive"] }
+
+
