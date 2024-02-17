@@ -1,5 +1,5 @@
 [package]
-name = "qrcode_backend"
+name = "icp_rust_workshop_backend"
 version = "0.1.0"
 edition = "2021"
 
@@ -18,5 +18,3 @@ colorgrad = "0.6"
 qrcode-generator = "4.1"
 image = {version = "0.24", features = ["png"], default-features = false}
 serde = { version="1.0", features=["derive"] }
-
-

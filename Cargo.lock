@@ -394,6 +394,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "icp_rust_workshop_backend"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "candid",
+ "colorgrad",
+ "ic-cdk",
+ "ic-cdk-macros",
+ "ic-cdk-timers",
+ "image",
+ "qrcode-generator",
+ "serde",
+]
+
+[[package]]
 name = "image"
 version = "0.24.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -581,21 +596,6 @@ dependencies = [
  "html-escape",
  "image",
  "qrcodegen",
-]
-
-[[package]]
-name = "qrcode_backend"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "candid",
- "colorgrad",
- "ic-cdk",
- "ic-cdk-macros",
- "ic-cdk-timers",
- "image",
- "qrcode-generator",
- "serde",
 ]
 
 [[package]]
